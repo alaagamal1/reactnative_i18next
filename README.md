@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# 🌐 React Native i18n & Pluralization & Interpolation & RTL & Detect device saved and default language
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains the complete frontend source code for implementing **Multi-Language (i18n)** and **Right-to-Left (RTL)** support in a React Native application. This setup is ideal for global applications.
 
-## Get started
+The project uses the `i18next` ecosystem to manage translations and handle complex language features like pluralization and dynamic content.
 
-1. Install dependencies
+## 🚀 Key Features
 
-   ```bash
-   npm install
-   ```
+* **i18n Configuration:** Seamless setup for multiple language packs (English & Arabic).
+* **Full RTL Support:** Automatic conversion of layout direction for Arabic language users using `I18nManager`.
+* **Dynamic Text Handling:** Examples of **Interpolation** (replacing variables like `{{name}}`) and **Pluralization** (handling singular/plural forms).
+* **Language Persistence:** Best practices for saving the user's language preference using AsyncStorage.
+* **Modular Design:** Translation logic is separated from UI components, following best practices.
 
-2. Start the app
+## 🎬 Video Tutorials
 
-   ```bash
-   npx expo start
-   ```
+For a step-by-step guide on how to implement this system, check out the tutorials on YouTube:
 
-In the output, you'll find options to open the app in a
+| Language | Watch on YouTube |
+| :--- | :--- |
+| **🇪🇬 Arabic Version (شرح باللهجة المصرية)** | [**Watch Video**](https://www.youtube.com/watch?v=WAxG4ORD5DQ) |
+| **🇺🇸 English Version** | [**Coming Soon / Link Here**] |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Technologies Used
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* [**React Native**](https://reactnative.dev/)
+* [**i18next**](https://www.i18next.com/)
+* [**react-i18next**](https://react.i18next.com/)
+* **AsyncStorage** (for persisting language state)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
