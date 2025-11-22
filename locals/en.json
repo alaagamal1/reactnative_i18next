@@ -1,0 +1,7 @@
+{
+    "welcome": "Welcome to the app",
+    "specialized_welcome": "Welcome {{name}} the app, you are {{age}} years old",
+    "cart_items": "You have {{count}} items in your cart",
+    "cart_items_one": "You have {{count}} item in your cart"
+
+}
