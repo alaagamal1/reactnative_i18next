@@ -19,7 +19,7 @@ For a step-by-step guide on how to implement this system, check out the tutorial
 | Language | Watch on YouTube |
 | :--- | :--- |
 | **🇪🇬 Arabic Version (شرح باللهجة المصرية)** | [**Watch Video**](https://www.youtube.com/watch?v=WAxG4ORD5DQ) |
-| **🇺🇸 English Version** | [**Coming Soon / Link Here**] |
+| **🇺🇸 English Version** | [**Watch Video**](https://www.youtube.com/watch?v=yXFkwXEKH4Q) |
 
 ## 🛠️ Technologies Used
 
